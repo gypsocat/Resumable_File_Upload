@@ -1,0 +1,13 @@
+
+server:
+  port: 8018
+
+spring:
+  servlet:
+    multipart:
+
+      enabled: false
+
+      max-file-size: 1GB
+
+      max-request-size: 10GB
